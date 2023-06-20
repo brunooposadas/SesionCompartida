@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3A7F16F5-2F2B-4919-A724-239E555F7DB3}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Bruno Posadas" ID="{3A7F16F5-2F2B-4919-A724-239E555F7DB3}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="knife slice" ID="{EC0BBBA3-0ABF-4F16-B0E8-F6BFBACDB275}" ShortID="140538797">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{34BF1745-ACB3-46F8-9B6B-57FE02AF290E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{67C3369F-6C9A-4753-B855-1686140B75AD}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ESM_Knife_Slice_5_Wet_Smash_Liquid_Bash_Sword_Knife_Organic_Splat_Gore_Horror" ID="{8324B292-20C4-45C9-9A97-7C04B8BCDF72}">
+							<Language>SFX</Language>
+							<AudioFile>ESM_Knife_Slice_5_Wet_Smash_Liquid_Bash_Sword_Knife_Organic_Splat_Gore_Horror.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="952525045"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ESM_Knife_Slice_5_Wet_Smash_Liquid_Bash_Sword_Knife_Organic_Splat_Gore_Horror" ID="{8324B292-20C4-45C9-9A97-7C04B8BCDF72}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
